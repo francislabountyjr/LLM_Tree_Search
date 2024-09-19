@@ -1,4 +1,11 @@
 # TS_LLM: AlphaZero-like tree-search learning framework for LLMs 
+
+This fork is for adding LoRA support for efficiently utilizing a shared decoder for the policy and value networks + for experimenting with AlphaZero like tree search for general reasoning where each node is an OpenAI o1 style reasoning step and the last node is the output that is given to the user
+
+---
+Original README
+---
+# TS_LLM: AlphaZero-like tree-search learning framework for LLMs 
 The official implementation of paper: [Alphazero-like Tree-Search can guide large language model decoding and training](https://arxiv.org/pdf/2309.17179.pdf)
 
 # Open Source Model
